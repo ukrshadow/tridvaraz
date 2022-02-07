@@ -456,7 +456,7 @@
 
 
        div.button {
-            background: url(images/Subtract_black.png) no-repeat 50% 43%/42%, url(images/Layer_3_black.png) no-repeat 50% 3%, url(images/Layer_4_black.png) no-repeat 50% 98%;
+            background: url(images/Subtract_black.png) no-repeat 50% 43%/42%, url(images/Layer_3_black.svg) no-repeat 50% 3%, url(images/Layer_4_black.svg) no-repeat 50% 98%;
             padding: 30px 0 24px 0;
             margin: 0 0 32px 0;
          }
