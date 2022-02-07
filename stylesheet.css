@@ -308,7 +308,8 @@
    .header{
          max-width: 100%;
          height: 64px;
-         padding: 22 48 15 44;
+         margin: 0 48 37 44;
+         padding-top: 24;
          display: flex;
          justify-content: space-between;
          }
@@ -316,9 +317,14 @@
       .main_page {
          background: url(images/bg_top_inner.png) no-repeat 0% 0%/100%;
       }
-
-    
-     
+.nav_list{
+          margin: 0;
+          padding: 0 0 0 140px;
+}
+    .feedback_list {
+          margin: 0;
+          padding: 0 101px 0 0;
+      }
      .nav_list, .feedback_list {
         display: flex;
         align-items: center;
@@ -332,7 +338,7 @@
          font-weight: normal;
          font-size: 16px;
          text-align: center;
-         margin: 0 0 0 40;
+         margin: 0 20 0 20;
      }
           
      .nav_list>li>a {
@@ -359,9 +365,9 @@
    
      #back_arrow{
          background: url(images/Subtract.png) no-repeat 0%/100% 73%,
-         url(images/Layer_3.png) no-repeat 50% -5%,
+         url(images/Layer_3.png) no-repeat 50% -7%,
          url(images/Layer_4.png) no-repeat 50% 105%;
-         padding: 13px;
+         padding: 11 24 11 22;
      }
      
      
