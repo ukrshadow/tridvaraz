@@ -482,22 +482,23 @@
          }
      .button_subs {
          display: inline;
-         background: url(images/Subtract.svg) no-repeat 50%/100% 67%, url(images/Layer_4.svg) no-repeat 50% 0%, url(images/Layer_1.svg) no-repeat 50% 100%;
-         padding: 47px 0px 37px 0px;
-         margin: 15px 0px 0 0;
+         background: url(images/Subtract.svg) no-repeat 50% 42%/95% 60%, url(images/Layer_4.svg) no-repeat 50% 0%, url(images/Layer_1.svg) no-repeat 50% 100%;
+         padding: 46px 0px 37px 0;
      }
          #button_subs {
              background: #fff;
-             /* padding: 0 0px 0 0px; */
-             font-family: Forum;
-             font-size: 16px;
-             line-height: 26px;
-             letter-spacing: 0.05em;
-             text-transform: uppercase;
              border: none;
              margin: 15px 0px 0 0;
              width: 330px;
              height: 55px;
+             font-family: Forum;
+             font-style: normal;
+             font-weight: normal;
+             font-size: 24px;
+             line-height: 26px;
+             text-align: center;
+             letter-spacing: 0.04em;
+             text-transform: uppercase;
              border-radius: 26px;
          }
          #text_Subs {
@@ -519,8 +520,8 @@
          font-style: normal;
          font-weight: normal;
          color: #FFFFFF;
-         margin: 0px 0 0 0;
-         padding: 94 405px 0 185;
+         margin: 0 405 0 185;
+         padding: 94 0 0 0;
          font-size: 60px;
          line-height: 58px;
      }
@@ -531,8 +532,7 @@
          font-size: 1em;
          line-height: 179.8%;
          color: #FFFFFF;
-         margin: 0px 0 0 0;
-         padding: 9 674 0 189px;
+         margin: 9px 674 0 189;
      }
      .sqare{
          background: url(images/Subtract_white.png) no-repeat 50% 78%/96% 85%, url(images/Layer_4.svg) no-repeat 50% 3%/5% 16%;
@@ -556,7 +556,7 @@
      
          .footer_menu {
              margin: 0;
-             padding: 100 13px 175 0;
+             padding: 100 13px 0 0;
          }
          .footer_nav_list{
              display: flex;
@@ -581,8 +581,7 @@
      font-weight: normal;
      font-size: 16px;
      text-align: center;
-     margin: 0 0 0 0;
-     padding: 0 60px 0 0;
+     margin: 0 60 0 0;
      }
          .footer_nav_list ul li {
              position: relative;
@@ -598,3 +597,17 @@
              text-decoration: none;
          }
  }
+
+ .copyright
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0 0 34 0;
+    margin: 165 165 0 165;
+}
