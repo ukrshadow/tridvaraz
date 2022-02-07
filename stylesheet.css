@@ -590,7 +590,14 @@
              margin: 0 10px;
          }
          
-         
+         #footer_back_arrow {
+             padding: 20px 24px 20px 22;
+         }
+
+         #footer_back_arrow:hover {
+    background: url(images/Subtract_white_comp.svg) no-repeat 0%/100% 97%, url(images/Layer_3_white_comp.svg) no-repeat 49% 6%, url(images/Layer_4_white_comp.svg) no-repeat 49% 91%;
+    
+         }
          .footer_nav_list>li>a {
              border-bottom: 2px solid transparent;
              color: rgb(0, 0, 0);
