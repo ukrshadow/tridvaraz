@@ -431,12 +431,59 @@
         color: #000000;
         padding: 0 65;
      }
-     
+    
         #img{
          border-radius: 10px; 
          width: 100%;  
         }
-        
+        p.row_title {
+            
+            color: white;
+            font-family: Forum;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 44px;
+            line-height: 98.5%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        p.row_title#Supercars{
+            margin: -117px 157 74 157;
+        }
+        p.row_title#Hotels{
+            margin: -117px 194 74 194;
+        }
+        p.row_title#Villas_Chalets{
+            margin: -117px 107 74 107;
+        }
+        p.row_title#Yachts_Boats{
+            margin: -117px 124 74 126;
+        }
+        p.row_title#Private_Helicopter{
+            margin: -140px 149 54 150;
+        }
+        p.row_title#Private_Jet{
+            margin: -140px 197 74 196;
+        }
+
+
+
+
+        .card{
+            height: 191;
+        }
+        #romb{
+            margin: -130px 200 55 199;
+        }
+
+        #romb_blur{
+            margin: -123px 200 55 199;
+        }
+
+
         #button {
             background-color: rgb(0 0 0);
             border-radius: 40px;
@@ -501,6 +548,7 @@
              text-transform: uppercase;
              border-radius: 26px;
          }
+
          #text_Subs {
              background: url(images/Rectangle_30_subs.png) no-repeat;
              border: 1px solid rgb(226 211 206 / 0%);
@@ -514,7 +562,9 @@
              padding: 0px 0 0 26px;
              margin: 0px -89px 0px 0px;
          }
-     
+         *:focus {
+            outline: none;
+        }
         #text {
          font-family: Forum;
          font-style: normal;
@@ -604,7 +654,9 @@
              text-decoration: none;
          }
  }
-
+*:focus {
+    outline: none;
+}
  .copyright
 {
     display: flex;
